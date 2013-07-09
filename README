@@ -1,7 +1,14 @@
+This is a fork of Morten Andersen-Gott's excellent Yammer plugin for Spring Social at https://github.com/magott
+
+I've updated it to work with Spring Social 1.1.0.M3, which involved updating several
+Spring and Jackson libraries.
+
+
+
 -------------------------------------------------------------------------------
 To get the code and build from source, do the following:
 
-git clone git://github.com/magott/spring-social-yammer.git
+git clone git://github.com/jasonkolb/spring-social-yammer.git
 cd spring-social
 ./gradlew build
 

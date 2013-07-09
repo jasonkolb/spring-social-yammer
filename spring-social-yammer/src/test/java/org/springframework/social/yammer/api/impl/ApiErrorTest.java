@@ -3,10 +3,9 @@ package org.springframework.social.yammer.api.impl;
 import static org.springframework.http.HttpMethod.GET;
 import static org.springframework.http.HttpStatus.FORBIDDEN;
 import static org.springframework.http.HttpStatus.UNAUTHORIZED;
-import static org.springframework.test.web.client.match.RequestMatchers.method;
-import static org.springframework.test.web.client.match.RequestMatchers.requestTo;
-import static org.springframework.test.web.client.response.ResponseCreators.withResponse;
-import static org.springframework.test.web.client.response.ResponseCreators.withStatus;
+import static org.springframework.test.web.client.match.MockRestRequestMatchers.method;
+import static org.springframework.test.web.client.match.MockRestRequestMatchers.requestTo;
+import static org.springframework.test.web.client.response.MockRestResponseCreators.withStatus;
 
 import java.io.IOException;
 
@@ -15,8 +14,15 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.social.NotAuthorizedException;
 import org.springframework.social.RateLimitExceededException;
+import org.springframework.social.yammer.api.YammerProfile;
 
 public class ApiErrorTest extends AbstractYammerApiTest{
+
+    @Test
+    public void testYammerProfileNoArgConstructor()
+    {
+        new YammerProfile();
+    }
 
     /**
      * Tests that 401 is interpreted as rate limit exceeded if json body returned indicates so.

@@ -18,10 +18,12 @@ package org.springframework.social.yammer.api.impl.json;
 import java.util.Date;
 import java.util.List;
 
-import org.codehaus.jackson.annotate.JsonCreator;
-import org.codehaus.jackson.annotate.JsonIgnoreProperties;
-import org.codehaus.jackson.annotate.JsonProperty;
-import org.codehaus.jackson.map.annotate.JsonDeserialize;
+import com.fasterxml.jackson.annotation.*;
+import com.fasterxml.jackson.annotation.JsonTypeInfo.*;
+import com.fasterxml.jackson.annotation.JsonSubTypes.*;
+import com.fasterxml.jackson.core.*;
+import com.fasterxml.jackson.databind.*;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import org.springframework.social.yammer.api.YammerMessage.Attachment;
 import org.springframework.social.yammer.api.YammerMessage.Body;
 import org.springframework.social.yammer.api.YammerMessage.LikedBy;
@@ -53,7 +55,7 @@ abstract class YammerMessageMixin {
 			@JsonProperty("client_url")String clientUrl, 
 			@JsonProperty("system_message")boolean systemMessage, 
 			@JsonProperty("message_type")String messageType, 
-			@JsonProperty("created_at") @JsonDeserialize(using=YammerDateDeserializer.class)Date createdAt, 
+			@JsonProperty("created_at") @JsonDeserialize(using=YammerDateDeserializer.class)Date createdAt,
 			@JsonProperty("direct_message")boolean directMessage,
 			@JsonProperty("client_type")String clientType, 
 			@JsonProperty("liked_by")LikedBy likedBy,

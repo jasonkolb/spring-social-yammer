@@ -15,6 +15,9 @@
  */
 package org.springframework.social.yammer.api;
 
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.util.List;
 
 
@@ -39,20 +42,41 @@ public class YammerProfile {
 	private List<String> externalUrls;
 	private String jobTitle;
 	private Contact contact;
-	
-	public YammerProfile(long id, 
-			String mugshotUrl, 
-			Stats stats, 
-			String type, 
-			String url, 
+
+    public YammerProfile()
+    {
+        // no-arg constructor
+    }
+
+    @JsonCreator
+	public YammerProfile(
+            @JsonProperty("id")
+            long id,
+            @JsonProperty("mugshotUrl")
+			String mugshotUrl,
+            @JsonProperty("stats")
+			Stats stats,
+            @JsonProperty("type")
+			String type,
+            @JsonProperty("url")
+			String url,
+            @JsonProperty("fullName")
 			String fullName,
-			String name, 
-			boolean admin, 
-			String expertise, 
-			String summary, 
-			String jobTitle, 
-			Contact contact, 
-			List<School> schools, 
+            @JsonProperty("name")
+			String name,
+            @JsonProperty("admin")
+			boolean admin,
+            @JsonProperty("expertise")
+			String expertise,
+            @JsonProperty("summary")
+			String summary,
+            @JsonProperty("jobTitle")
+			String jobTitle,
+            @JsonProperty("contact")
+			Contact contact,
+            @JsonProperty("schools")
+			List<School> schools,
+            @JsonProperty("externalUrls")
 			List<String> externalUrls) {
 		super();
 		this.id = id;

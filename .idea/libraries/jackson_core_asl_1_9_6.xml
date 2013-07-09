@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jackson-core-asl-1.9.6">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.codehaus.jackson/jackson-core-asl/1.9.6/source/9d5ffec4490cc7756a520fb0998532f41344f84d/jackson-core-asl-1.9.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

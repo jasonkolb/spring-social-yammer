@@ -25,6 +25,9 @@ public class YammerOAuth2Template extends OAuth2Template {
 
 	public YammerOAuth2Template(String clientId, String clientSecret) {
 		super(clientId, clientSecret, "https://www.yammer.com/dialog/oauth", "https://www.yammer.com/oauth2/access_token");
+		
+		// Yammer requires old-style oauth2, with credentials sent in the header not using basic auth
+		this.setUseParametersForClientAuthentication( true );
 	}
 	
 	@SuppressWarnings("unchecked")

@@ -17,10 +17,12 @@ package org.springframework.social.yammer.api.impl.json;
 
 import java.util.Date;
 
-import org.codehaus.jackson.annotate.JsonCreator;
-import org.codehaus.jackson.annotate.JsonIgnoreProperties;
-import org.codehaus.jackson.annotate.JsonProperty;
-import org.codehaus.jackson.map.annotate.JsonDeserialize;
+import com.fasterxml.jackson.annotation.*;
+import com.fasterxml.jackson.annotation.JsonTypeInfo.*;
+import com.fasterxml.jackson.annotation.JsonSubTypes.*;
+import com.fasterxml.jackson.core.*;
+import com.fasterxml.jackson.databind.*;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import org.springframework.social.yammer.api.Group.GroupStats;
 import org.springframework.social.yammer.api.impl.YammerDateDeserializer;
 
@@ -42,7 +44,7 @@ abstract class GroupMixin {
 			@JsonProperty("full_name") String fullName,
 			@JsonProperty("name") String name,
 			@JsonProperty("id") long id,
-			@JsonProperty("created_at") @JsonDeserialize(using=YammerDateDeserializer.class) Date createdAt			
+			@JsonProperty("created_at") @JsonDeserialize(using=YammerDateDeserializer.class) Date createdAt
 			) {}
 
     @JsonIgnoreProperties(ignoreUnknown=true)

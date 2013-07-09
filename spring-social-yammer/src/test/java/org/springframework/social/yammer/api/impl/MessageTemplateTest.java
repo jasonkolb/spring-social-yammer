@@ -16,8 +16,11 @@ import static org.junit.Assert.assertThat;
 import static org.springframework.http.HttpMethod.*;
 import static org.springframework.http.MediaType.APPLICATION_JSON;
 import static org.springframework.social.yammer.api.MessageOperations.*;
-import static org.springframework.test.web.client.match.RequestMatchers.*;
-import static org.springframework.test.web.client.response.ResponseCreators.withSuccess;
+import static org.springframework.test.web.client.match.MockRestRequestMatchers.content;
+import static org.springframework.test.web.client.match.MockRestRequestMatchers.method;
+import static org.springframework.test.web.client.match.MockRestRequestMatchers.requestTo;
+import static org.springframework.test.web.client.response.MockRestResponseCreators.withStatus;
+import static org.springframework.test.web.client.response.MockRestResponseCreators.withSuccess;
 
 public class MessageTemplateTest extends AbstractYammerApiTest {
 
