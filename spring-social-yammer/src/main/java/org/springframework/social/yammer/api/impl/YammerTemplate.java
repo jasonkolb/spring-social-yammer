@@ -19,6 +19,7 @@ import java.util.List;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.http.converter.HttpMessageConverter;
+import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.http.converter.json.MappingJacksonHttpMessageConverter;
 import org.springframework.social.oauth2.AbstractOAuth2ApiBinding;
 import org.springframework.social.yammer.api.GroupOperations;
@@ -38,6 +39,8 @@ import org.springframework.web.client.RestTemplate;
  */
 public class YammerTemplate extends AbstractOAuth2ApiBinding implements Yammer{
 
+    private ObjectMapper objectMapper;
+
     public final static String providerId = "yammer";
 
 	private UserOperations userOperations;
@@ -51,7 +54,7 @@ public class YammerTemplate extends AbstractOAuth2ApiBinding implements Yammer{
 	public YammerTemplate(String accessToken) {
 		super(accessToken);
 		initSubApis();
-//		registerYammerJsonModule();
+		registerYammerJsonModule();
 	}
 
 	public UserOperations userOperations(){
@@ -97,15 +100,25 @@ public class YammerTemplate extends AbstractOAuth2ApiBinding implements Yammer{
 		threadOperations = new ThreadTemplate(getRestTemplate());
 	}
 	
-//	private void registerYammerJsonModule() {
-//		List<HttpMessageConverter<?>> converters = getRestTemplate().getMessageConverters();
-//		for (HttpMessageConverter<?> converter : converters) {
-//			if(converter instanceof MappingJacksonHttpMessageConverter) {
-//				MappingJacksonHttpMessageConverter jsonConverter = (MappingJacksonHttpMessageConverter) converter;
-//				ObjectMapper objectMapper = new ObjectMapper();
-//				objectMapper.registerModule(new YammerModule());
-//				jsonConverter.setObjectMapper(objectMapper);
-//			}
-//		}
-//	}
+	private void registerYammerJsonModule() {
+		List<HttpMessageConverter<?>> converters = getRestTemplate().getMessageConverters();
+		for (HttpMessageConverter<?> converter : converters) {
+			if(converter instanceof MappingJacksonHttpMessageConverter) {
+                MappingJackson2HttpMessageConverter jsonConverter = (MappingJackson2HttpMessageConverter) converter;
+				ObjectMapper objectMapper = new ObjectMapper();
+				objectMapper.registerModule(new YammerModule());
+				jsonConverter.setObjectMapper(objectMapper);
+			}
+		}
+	}
+
+    @Override
+    protected MappingJackson2HttpMessageConverter getJsonMessageConverter() {
+        MappingJackson2HttpMessageConverter converter = super.getJsonMessageConverter();
+        objectMapper = new ObjectMapper();
+        objectMapper.registerModule(new YammerModule());
+        converter.setObjectMapper(objectMapper);
+        return converter;
+    }
+
 }

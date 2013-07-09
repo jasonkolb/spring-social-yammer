@@ -299,6 +299,9 @@ public class YammerMessage {
     	private String inlineHtml;
     	private File file;
     	private Image image;
+
+        public Attachment()
+        {}
     	
     	public Attachment(String uuid, String type, String contentType, String path, long yId, String size,
 				String name, String webUrl, long id, String inlineUrl, String inlineHtml, File file, Image image) {
