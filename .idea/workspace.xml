@@ -2,17 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eedf0929-360a-48a8-8713-d8497fa395ad" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/Activity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/impl/json/ActivityMixin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/ActivityOperations.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/impl/ActivityTemplate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/impl/ActivityTemplateTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/YammerActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/YammerActivityActor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/YammerActivityDetails.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/YammerActivityObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/YammerActivityUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/impl/testdata/yammer-activity.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/impl/ApiErrorTest.java" afterPath="$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/impl/ApiErrorTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NOTICE" afterPath="$PROJECT_DIR$/NOTICE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/YammerMessage.java" afterPath="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/YammerMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/OpenGraphObject.java" afterPath="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/OpenGraphObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/connect/YammerAdapter.java" afterPath="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/connect/YammerAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/connect/YammerAdapterTest.java" afterPath="$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/connect/YammerAdapterTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/impl/json/YammerModule.java" afterPath="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/impl/json/YammerModule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/YammerProfile.java" afterPath="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/YammerProfile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/impl/json/YammerProfileMixin.java" afterPath="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/impl/json/YammerProfileMixin.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/impl/YammerTemplate.java" afterPath="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/impl/YammerTemplate.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="spring-social-yammer.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="eedf0929-360a-48a8-8713-d8497fa395ad" time="1373380242650" ignored="false" />
+    <file path="/Dummy.txt" changelist="eedf0929-360a-48a8-8713-d8497fa395ad" time="1373547318921" ignored="false" />
     <file path="/YammerOAuth2Template.java" changelist="eedf0929-360a-48a8-8713-d8497fa395ad" time="1373380553232" ignored="false" />
     <file path="/a.dummy" changelist="eedf0929-360a-48a8-8713-d8497fa395ad" time="1373391937244" ignored="false" />
-    <file path="/YammerTemplate.java" changelist="eedf0929-360a-48a8-8713-d8497fa395ad" time="1373381175486" ignored="false" />
+    <file path="/YammerTemplate.java" changelist="eedf0929-360a-48a8-8713-d8497fa395ad" time="1373550259104" ignored="false" />
     <file path="/YammerConnectionFactory.java" changelist="eedf0929-360a-48a8-8713-d8497fa395ad" time="1373381249405" ignored="false" />
     <file path="/gradle.properties" changelist="eedf0929-360a-48a8-8713-d8497fa395ad" time="1373390837927" ignored="false" />
     <file path="/YammerProfile.java" changelist="eedf0929-360a-48a8-8713-d8497fa395ad" time="1373387239585" ignored="false" />
@@ -26,8 +43,8 @@
     <file path="/YammerMessage.java" changelist="eedf0929-360a-48a8-8713-d8497fa395ad" time="1373392960629" ignored="false" />
     <file path="/YammerMessageMeta.java" changelist="eedf0929-360a-48a8-8713-d8497fa395ad" time="1373391594853" ignored="false" />
     <file path="/YammerMessageMixin.java" changelist="eedf0929-360a-48a8-8713-d8497fa395ad" time="1373392391240" ignored="false" />
-    <file path="$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/impl/MessageTemplateTest.java" changelist="eedf0929-360a-48a8-8713-d8497fa395ad" time="1373392516779" ignored="false" />
-    <file path="/YammerModule.java" changelist="eedf0929-360a-48a8-8713-d8497fa395ad" time="1373392930851" ignored="false" />
+    <file path="/YammerModule.java" changelist="eedf0929-360a-48a8-8713-d8497fa395ad" time="1373550329894" ignored="false" />
+    <file path="/YammerAdapter.java" changelist="eedf0929-360a-48a8-8713-d8497fa395ad" time="1373550532652" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,47 +105,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="YammerMessage.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/YammerMessage.java">
+      <file leaf-file-name="ApiErrorTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/impl/ApiErrorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="303" column="10" selection-start="6628" selection-end="6628" vertical-scroll-proportion="0.73101264">
-              <folding>
-                <element signature="e#0#8581#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="YammerMessageMixin.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/impl/json/YammerMessageMixin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="26" selection-start="3050" selection-end="3050" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#4609#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="YammerTemplate.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/impl/YammerTemplate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="45" selection-start="4270" selection-end="4270" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="YammerModule.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/impl/json/YammerModule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="0" selection-start="4968" selection-end="4968" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="20" column="0" selection-start="887" selection-end="887" vertical-scroll-proportion="0.1613924">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -276,22 +257,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/impl/ApiErrorTest.java" />
-        <option value="$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/impl/UserTemplateTest.java" />
-        <option value="$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/impl/TopicTemplateTest.java" />
-        <option value="$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/impl/GroupTemplateTest.java" />
-        <option value="$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/impl/SearchTemplateTest.java" />
-        <option value="$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/impl/ThreadTemplateTest.java" />
-        <option value="$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/impl/MessageTemplateTest.java" />
-        <option value="$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/impl/SubscriptionTemplateTest.java" />
-        <option value="$PROJECT_DIR$/gradle.properties" />
-        <option value="$PROJECT_DIR$/README" />
-        <option value="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/MessageInfo.java" />
-        <option value="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/YammerMessageMeta.java" />
-        <option value="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/impl/json/YammerMessageMixin.java" />
+        <option value="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/YammerActivityActor.java" />
+        <option value="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/YammerActivityDetails.java" />
+        <option value="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/YammerActivityObject.java" />
+        <option value="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/YammerActivityUser.java" />
+        <option value="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/YammerProfile.java" />
+        <option value="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/impl/ActivityTemplate.java" />
+        <option value="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/impl/YammerErrorHandler.java" />
         <option value="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/impl/YammerTemplate.java" />
+        <option value="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/impl/json/ActivityMixin.java" />
         <option value="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/impl/json/YammerModule.java" />
-        <option value="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/YammerMessage.java" />
+        <option value="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/impl/json/YammerProfileMixin.java" />
+        <option value="$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/connect/YammerAdapterTest.java" />
+        <option value="$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/impl/ActivityTemplateTest.java" />
+        <option value="$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/impl/testdata/yammer-activity.json" />
+        <option value="$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/connect/YammerAdapter.java" />
+        <option value="$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/impl/ApiErrorTest.java" />
       </list>
     </option>
   </component>
@@ -310,7 +291,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -329,6 +310,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -361,10 +343,105 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-yammer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-yammer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-yammer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-yammer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-yammer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-yammer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-yammer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-yammer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-yammer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-yammer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-yammer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-social-yammer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,10 +457,11 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager" selected="JUnit.All in spring-social-yammer-spring-social-yammer">
     <configuration default="false" name="ApiErrorTest" type="JUnit" factoryName="JUnit" temporary="true">
@@ -442,6 +520,29 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="All in spring-social-yammer" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="spring-social-yammer" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="All in spring-social-yammer-spring-social-yammer" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="spring-social-yammer-spring-social-yammer" />
@@ -479,19 +580,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -518,6 +606,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -556,16 +657,18 @@
       <patterns />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.ApiErrorTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.MessageTemplateTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.All in spring-social-yammer-spring-social-yammer" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.All in spring-social-yammer" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.All in spring-social-yammer-spring-social-yammer" />
     </list>
     <recent_temporary>
-      <list size="3">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="JUnit.All in spring-social-yammer-spring-social-yammer" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MessageTemplateTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ApiErrorTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.All in spring-social-yammer" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MessageTemplateTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ApiErrorTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -626,7 +729,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297062" sideWeight="0.6703297" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -642,12 +744,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297062" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24972796" sideWeight="0.6703297" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32967034" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24972796" sideWeight="0.6703297" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -715,138 +818,130 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/impl/UserTemplateTest.java">
+    <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/YammerActivityDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="881" selection-end="881" vertical-scroll-proportion="0.37658226">
+        <state line="46" column="1" selection-start="995" selection-end="995" vertical-scroll-proportion="0.94728684">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/YammerActivityObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="1" selection-start="941" selection-end="941" vertical-scroll-proportion="0.94728684">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/impl/TopicTemplateTest.java">
+    <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/YammerActivityUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1474" selection-end="1474" vertical-scroll-proportion="0.32753164">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/impl/GroupTemplateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1601" selection-end="1601" vertical-scroll-proportion="0.53797466">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/impl/ThreadTemplateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.43037975">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/impl/SearchTemplateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="55" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.0">
+        <state line="30" column="1" selection-start="523" selection-end="523" vertical-scroll-proportion="0.7906977">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/org.springframework/spring-test/3.2.3.RELEASE/source/2754a321d827c01045f29a8ca2c6f66122be393/spring-test-3.2.3.RELEASE-sources.jar!/org/springframework/test/web/client/ResponseActions.java">
+    <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/impl/ActivityTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="20" selection-start="1009" selection-end="1009" vertical-scroll-proportion="0.42170542">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/impl/SubscriptionTemplateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="94" selection-start="1491" selection-end="1491" vertical-scroll-proportion="0.53797466">
+        <state line="40" column="1" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.8418605">
           <folding>
+            <element signature="e#0#1315#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/MessageInfo.java">
+    <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/YammerProfile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="25" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.67246836">
+        <state line="325" column="1" selection-start="7678" selection-end="7678" vertical-scroll-proportion="2.640823">
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/impl/MessageTemplateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="39" selection-start="2079" selection-end="2079" vertical-scroll-proportion="0.8164557">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="382" selection-end="382" vertical-scroll-proportion="0.26898733">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/YammerMessageMeta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="23" selection-start="873" selection-end="873" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#7678#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/impl/YammerTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="45" selection-start="4270" selection-end="4270" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="98" column="49" selection-start="3144" selection-end="3144" vertical-scroll-proportion="0.6455696">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/impl/json/YammerMessageMixin.java">
+    <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/impl/json/ActivityMixin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="26" selection-start="3050" selection-end="3050" vertical-scroll-proportion="0.0">
+        <state line="17" column="16" selection-start="492" selection-end="492" vertical-scroll-proportion="0.448062">
           <folding>
-            <element signature="e#0#4609#0" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/impl/json/YammerModule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="0" selection-start="4968" selection-end="4968" vertical-scroll-proportion="0.0">
+        <state line="93" column="43" selection-start="5686" selection-end="5686" vertical-scroll-proportion="0.7627907">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/impl/YammerErrorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="84" selection-start="1958" selection-end="1958" vertical-scroll-proportion="0.3227848">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2786#2816#1" expanded="true" />
+            <element signature="e#3717#3738#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/YammerMessage.java">
+    <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/impl/json/YammerProfileMixin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="303" column="10" selection-start="6628" selection-end="6628" vertical-scroll-proportion="0.73101264">
+        <state line="51" column="65" selection-start="2083" selection-end="2083" vertical-scroll-proportion="0.42170542">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/connect/YammerAdapterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="222" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.34968355">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/impl/MessageTemplateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="561" selection-end="1214" vertical-scroll-proportion="0.40031645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/impl/ActivityTemplateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="288" selection-end="288" vertical-scroll-proportion="0.21518987">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/impl/testdata/yammer-activity.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="68" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/main/java/org/springframework/social/yammer/api/connect/YammerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="27" selection-start="2205" selection-end="2205" vertical-scroll-proportion="0.72626585">
           <folding>
-            <element signature="e#0#8581#0" expanded="true" />
+            <element signature="e#0#2879#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-social-yammer/src/test/java/org/springframework/social/yammer/api/impl/ApiErrorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="887" selection-end="887" vertical-scroll-proportion="0.1613924">
+          <folding />
         </state>
       </provider>
     </entry>

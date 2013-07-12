@@ -18,12 +18,6 @@ import org.springframework.social.yammer.api.YammerProfile;
 
 public class ApiErrorTest extends AbstractYammerApiTest{
 
-    @Test
-    public void testYammerProfileNoArgConstructor()
-    {
-        new YammerProfile();
-    }
-
     /**
      * Tests that 401 is interpreted as rate limit exceeded if json body returned indicates so.
      * According to Yammer API doc 403 will be returned if rate limit is exceeded, empiric evidence

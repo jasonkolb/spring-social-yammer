@@ -17,35 +17,21 @@ package org.springframework.social.yammer.api.impl.json;
 
 import com.fasterxml.jackson.core.Version;
 import com.fasterxml.jackson.databind.module.SimpleModule;
-import org.springframework.social.yammer.api.Group;
+import org.springframework.social.yammer.api.*;
 import org.springframework.social.yammer.api.Group.GroupStats;
-import org.springframework.social.yammer.api.GroupReference;
-import org.springframework.social.yammer.api.MessageInfo;
-import org.springframework.social.yammer.api.MessageReference;
-import org.springframework.social.yammer.api.SearchResults;
 import org.springframework.social.yammer.api.SearchResults.SearchStats;
-import org.springframework.social.yammer.api.TagReference;
-import org.springframework.social.yammer.api.ThreadReference;
-import org.springframework.social.yammer.api.Topic;
 import org.springframework.social.yammer.api.Topic.TopicExpert;
-import org.springframework.social.yammer.api.TopicReference;
-import org.springframework.social.yammer.api.UserReference;
-import org.springframework.social.yammer.api.YammerMessage;
 import org.springframework.social.yammer.api.YammerMessage.Attachment;
 import org.springframework.social.yammer.api.YammerMessage.Attachment.File;
 import org.springframework.social.yammer.api.YammerMessage.Attachment.Image;
 import org.springframework.social.yammer.api.YammerMessage.Body;
 import org.springframework.social.yammer.api.YammerMessage.LikedBy;
 import org.springframework.social.yammer.api.YammerMessage.LikedBy.Name;
-import org.springframework.social.yammer.api.YammerMessageMeta;
-import org.springframework.social.yammer.api.YammerProfile;
 import org.springframework.social.yammer.api.YammerProfile.Contact;
 import org.springframework.social.yammer.api.YammerProfile.EMail;
 import org.springframework.social.yammer.api.YammerProfile.InstantMessaging;
 import org.springframework.social.yammer.api.YammerProfile.School;
 import org.springframework.social.yammer.api.YammerProfile.Stats;
-import org.springframework.social.yammer.api.YammerReference;
-import org.springframework.social.yammer.api.YammerThread;
 import org.springframework.social.yammer.api.YammerThread.ThreadStats;
 import org.springframework.social.yammer.api.impl.json.GroupMixin.GroupStatsMixin;
 import org.springframework.social.yammer.api.impl.json.SearchResultsMixin.SearchStatsMixin;
@@ -105,6 +91,7 @@ public class YammerModule extends SimpleModule {
 		context.setMixInAnnotations(MessageReference.class, MessageReferenceMixin.class);
 		context.setMixInAnnotations(TopicReference.class, TopicReferenceMixin.class);
 		context.setMixInAnnotations(TagReference.class, TagReferenceMixin.class);
+        context.setMixInAnnotations(Activity.class, ActivityMixin.class);
 	}
 
 }

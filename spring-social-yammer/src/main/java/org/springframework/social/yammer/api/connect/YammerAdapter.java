@@ -52,7 +52,9 @@ public class YammerAdapter implements ApiAdapter<Yammer> {
         YammerProfile profile = yammer.userOperations().getUserProfile();
 
         String primaryMail = getEMail(profile);
-        return new UserProfileBuilder().setName(profile.getFullName()).setUsername(profile.getName()).setEmail(primaryMail).build();
+        UserProfile userProfile = new UserProfileBuilder().setName(profile.getFullName()).setUsername(profile.getName()).setEmail(primaryMail).build();
+
+        return userProfile;
     }
 
     private String getEMail(YammerProfile profile) {
